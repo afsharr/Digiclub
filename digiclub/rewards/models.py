@@ -25,7 +25,7 @@ class RewardReference(models.Model):
     points = models.ForeignKey(Point, on_delete=models.CASCADE, related_name='rewards')
 
     def __str__(self):
-        return f"Reward for {self.content_object} with {self.points} points"
+        return f"Reward for {self.points.user} "
         
 class RaffleChance(Reward):
     """مدل برای شانس قرعه‌کشی."""
