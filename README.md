@@ -27,7 +27,7 @@ Steps
 
     bash
 
-git clone https://github.com/afsharr/digiclub.git
+git clone https://github.com/afsharr/Digiclub.git
 cd reward-management-system
 
 Set Up Virtual Environment
